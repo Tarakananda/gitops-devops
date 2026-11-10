@@ -20,7 +20,7 @@ spec:
         runAsNonRoot: true
       containers:
         - name: pharma-ui
-          image: 873135413040.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:sha-b8aa312
+          image: 721274598133.dkr.ecr.ap-south-1.amazonaws.com/pharma-ui:sha-b8aa312
           securityContext:
             readOnlyRootFilesystem: true
           ports:
